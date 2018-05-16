@@ -1,0 +1,31 @@
+label {
+    font-size: 28px;
+}
+
+form {
+    text-align: center;
+}
+
+
+
+#image-holder {
+    border-radius: 25px;
+}
+
+.radio:hover {
+    cursor: pointer;
+    background-color: darkgray;
+    border-radius: 25px;
+}
+
+input {
+    visibility: hidden;
+}
+
+.radio {
+    font-size: 20px;
+}
+
+/* .radio > span {
+    white-space: nowrap;
+} */
