@@ -17,7 +17,8 @@ form, #buttons {
 
 #newStart {
     padding: 4px;
-    font-size: 22px;
+    font-size: 28px;
+    font-weight: bold;
 }
 
 #image-holder {
@@ -25,7 +26,8 @@ form, #buttons {
 }
 
 img {
-    max-height: 30%;
+    margin-top: 2%;
+    max-height: 300px;
     width: auto;
     margin-left: auto;
     margin-right: auto;
@@ -49,7 +51,3 @@ input {
 .radio, .stats {
     font-size: 30px;
 }
-
-/* .radio > span {
-    white-space: nowrap;
-} */
