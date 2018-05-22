@@ -65,7 +65,6 @@ function decrement() {
   //Compares user answer to correct answer, clears divs, updates stats, and runs the reveal
   function checkAnswer(userAnswer) {
       if (quiz.questionsArray[quiz.questionIndex].correct === userAnswer) {
-        console.log("right");
         quiz.right++;
         $("#radioButton").empty();
         $("#qholder").empty();
@@ -73,7 +72,6 @@ function decrement() {
         displayReveal();
         }
       else {
-        console.log("wrong");
         quiz.wrong++;
         $("#radioButton").empty();
         $("#qholder").empty();
